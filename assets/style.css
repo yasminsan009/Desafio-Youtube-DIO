@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 2rem;
+    font-size: x-large;
+}
+
+.container {
+    border: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header {
+    padding: 0px 24px 0px 24px;
+    justify-content: space-between;
+
+}
+
+#youtube-logo {
+    padding-left: 2rem;
+}
+
+#search {
+    align-content: center;
+    margin-left: 500px;
+    padding-top: 14px;
+
+
+}
+
+#search-button {
+    padding-top: 3px;
+}
+
+#menu-rigth {
+    padding-left: 650px;
+    max-width: 110px;
+    padding-top: 5px;
+}
+
+.main-player {
+    flex: 1;
+    padding-left: 3rem;
+    padding-top: 1rem;
+
+}
+
+.main-player iframe {
+    padding-left: 2rem;
+    width: 73rem;
+    height: 40rem;
+    border-radius: 4%;
+
+}
+
+#video-related-actions{
+    padding-left: 2rem;
+}
+
+#video-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 2rem;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
